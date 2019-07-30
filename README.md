@@ -20,3 +20,6 @@ GET / POST / DELETE / PUT
 ## Utilização de Middlewares
 
 Globais e Locais.
+
+- Global: Faz uma contagem de quantas requisições foram feitas na aplicação até então;
+- Local: Faz a cheacagem em  todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe; se não existir retorna um erro, caso contrário permite que a requisição continue normalmente;
